@@ -14,7 +14,7 @@ negative_reviews = [(movie_reviews.raw(fileid), 'negative') for fileid in movie_
 random.shuffle(positive_reviews)
 random.shuffle(negative_reviews)
 
-# Select a subset of 50 positive and 50 negative reviews
+# Select a subset of 40 positive and 60 negative reviews
 
 positive_reviews_subset = positive_reviews[:40]
 negative_reviews_subset = negative_reviews[:60]
