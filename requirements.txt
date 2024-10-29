@@ -1,0 +1,10 @@
+tensorflow
+transformers
+pandas
+beautifulsoup4
+matplotlib
+plotly
+wordcloud
+scikit-learn
+nltk
+streamlit
