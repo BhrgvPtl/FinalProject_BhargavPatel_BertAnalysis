@@ -164,14 +164,6 @@ generate_wordcloud(negative,'Negative Review')
 # In[11]:
 
 
-# Using 5000 data out of 25000 data to run code faster
-train_df = pd.merge(train_df[:2500],train_df[-2500:], how = 'outer')
-test_df = pd.merge(test_df[:2500],test_df[-2500:], how = 'outer')
-
-
-# In[11]:
-
-
 Reviews = train_df['Cleaned_sentence']
 Target = train_df['sentiment']
 test_reviews = test_df['Cleaned_sentence']
